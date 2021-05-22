@@ -1,0 +1,48 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.12.8",
+    "cordova": "^10.0.0",
+    "expo": "^38.0.8",
+    "expo-permissions": "~9.3.0",
+    "firebase": "^7.15.1",
+    "permissions": "^0.1.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-firebase": "^2.2.8",
+    "react-gesture-handler": "0.0.5",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-elements": "^3.4.1",
+    "react-native-firebase": "^5.6.0",
+    "react-native-gesture-handler": "^1.7.0",
+    "react-native-reanimated": "^1.13.3",
+    "react-native-safe-area-context": "~3.0.7",
+    "react-native-screens": "^2.10.1",
+    "react-native-web": "^0.12.3",
+    "react-native-webview": "^10.7.0",
+    "react-navigation": "^4.4.4",
+    "react-navigation-drawer": "^2.7.1",
+    "react-navigation-stack": "^2.10.4",
+    "react-navigation-tabs": "^2.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-preset-expo": "~8.0.0"
+  },
+  "private": true,
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/anImageThatDoesNotExist.png",
+      "backgroundColor": "#FFFFFF"
+    }
+  }
+}
